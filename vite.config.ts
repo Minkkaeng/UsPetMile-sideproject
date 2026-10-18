@@ -7,6 +7,6 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [react(), isDev && reactClickToComponent()].filter(Boolean),
-    base: mode === "production" ? "/UsPetMile/" : "/",
+    base: mode === "production" ? "/UsPetMile-sideproject/" : "/",
   };
 });
